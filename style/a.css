@@ -1,0 +1,35 @@
+nav li{
+    display: inline-table;
+    /* list-style: none; */
+    width: 80px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: blue;
+}
+nav li a{
+    text-decoration: none;
+    color: brown;
+    
+
+}
+.t,.um{
+    display: none;
+    /* position: absolute; */
+    background-color: bisque;
+    /* padding-left: 0px; */
+    margin: 0px 0px;
+}
+nav li:hover .t,.um{
+    display: block;
+    position:absolute;
+    
+}
+/* .um{
+    display: none;
+    background-color: brown;
+}
+nav li:hover .um{
+    display: block;
+    position: absolute;
+} */
